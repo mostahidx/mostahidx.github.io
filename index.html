@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Mostahid Hasan — Data Scientist & ML Engineer</title>
+    <meta name="description" content="Aspiring Data Scientist and ML Engineer from Dhaka, Bangladesh. Building predictive models, battery health analytics, and AI solutions for real-world problems.">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>MH<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="profile-section">
+                <div class="profile-image-wrapper">
+                    <!-- Replace 'profile.jpg' with your actual image filename -->
+                    <img src="images/profile.jpg" alt="Md Mostahid Hasan" class="profile-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div style="display:none; width:280px; height:280px; border-radius:16px; background:var(--bg-surface-light); border:2px solid var(--border-color-light); align-items:center; justify-content:center; color:var(--text-muted); font-size:4rem;">👤</div>
+                    <span class="profile-badge">ML & Data</span>
+                </div>
+                <div class="hero-text">
+                    <h1 class="hero-title" id="user-name"></h1>
+                    <p class="hero-subtitle" id="user-title"></p>
+                    <p class="hero-description" id="user-status"></p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="https://github.com/mostahidx" target="_blank" class="btn btn-secondary">
+                            <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" style="margin-right:6px;">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                            </svg>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects-section" id="projects">
+        <div class="section-header">
+            <h2>Featured Projects</h2>
+            <p class="section-subtitle">Real-world ML models, predictive systems, and data-driven solutions</p>
+        </div>
+        <div class="project-grid" id="project-grid"></div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills-section" id="skills">
+        <div class="section-header">
+            <h2>Technical Skills</h2>
+            <p class="section-subtitle">ML, data science, and the tools that power my work</p>
+        </div>
+        <div class="skills-grid" id="skills-grid"></div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section" id="about">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <p class="section-subtitle">Turning data into decisions, one model at a time</p>
+        </div>
+        <div class="about-content">
+            <div class="about-text" id="about-text"></div>
+            <div class="about-stats" id="about-stats"></div>
+        </div>
+        <div class="about-updates">
+            <h3>📊 What I'm Working On</h3>
+            <ul class="log-list" id="activity-stream"></ul>
+        </div>
+    </section>
+
+    <!-- ACHIEVEMENTS SECTION -->
+    <section class="achievements-section" id="achievements">
+        <div class="section-header">
+            <h2>Achievements & Milestones</h2>
+            <p class="section-subtitle">Academic excellence, technical milestones, and personal wins</p>
+        </div>
+        <div class="achievements-grid" id="achievements-grid"></div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contact">
+        <div class="section-header">
+            <h2>Let's Connect</h2>
+            <p class="section-subtitle">Open to collaborations, research, and ML opportunities</p>
+        </div>
+        <div class="contact-content">
+            <a href="mailto:mostahidx@gmail.com" class="contact-link">
+                <svg class="contact-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                mostahidx@gmail.com
+            </a>
+            <div class="social-links" id="social-links"></div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>Built with <span class="heart">❤</span> and a lot of <span style="color:var(--accent);">Python</span> · Md Mostahid Hasan · 2025</p>
+    </footer>
+
+    <script src="js/config.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>
