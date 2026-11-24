@@ -8,10 +8,10 @@ const PortfolioData = {
     },
     projects: [
         {
-            title: "Predictive Battery-Health Model",
-            desc: "Real-world predictive maintenance system for Bangladesh's massive e-rickshaw fleet. Logs voltage/current discharge curves via multimeter + relay over charge cycles, then trains ML regression models to predict remaining useful life (RUL) before battery failure. Addresses a genuine underserved market in South Asia.",
-            tech: ["Python", "Scikit-learn", "Time Series", "Predictive Maintenance", "IoT Sensors", "Pandas", "NumPy"],
-            link: "https://github.com/mostahidx",
+            title: "Ki Khabo -- AI-Powered Smart Food Platform",
+            desc: "Group project (4 members) for CSE471. Owned four modules (M1-3, M2-1, M3-1, M3-2), including the OpenAI API integration, on a feature branch in a shared team repository.",
+            tech: ["Node.js", "OpenAI API"],
+            link: "https://github.com/swapnilrob/ki-khabo",
             highlight: true
         },
         {
@@ -40,50 +40,62 @@ const PortfolioData = {
         }
     ],
     skills: [
-        // ML / Data Science
-        { name: "Python", category: "ML / Data Science" },
-        { name: "Scikit-learn", category: "ML / Data Science" },
-        { name: "Pandas", category: "ML / Data Science" },
-        { name: "NumPy", category: "ML / Data Science" },
-        { name: "Matplotlib / Seaborn", category: "ML / Data Science" },
-        { name: "Machine Learning", category: "ML / Data Science" },
-        { name: "Predictive Maintenance", category: "ML / Data Science" },
-        { name: "Time Series Analysis", category: "ML / Data Science" },
-        { name: "Data Preprocessing", category: "ML / Data Science" },
-        { name: "Feature Engineering", category: "ML / Data Science" },
-        { name: "Regression & Classification", category: "ML / Data Science" },
-        { name: "Neural Networks", category: "ML / Data Science" },
+    // Languages
+    { name: "Python", category: "Languages" },
+    { name: "JavaScript", category: "Languages" },
+    { name: "C++", category: "Languages" },
+    { name: "PHP", category: "Languages" },
+    { name: "SQL", category: "Languages" },
+    { name: "Assembly (8086)", category: "Languages" },
 
-        // Databases
-        { name: "PostgreSQL", category: "Database" },
-        { name: "MongoDB", category: "Database" },
-        { name: "MySQL", category: "Database" },
-        { name: "Firebase", category: "Database" },
+    // Web & Backend
+    { name: "React", category: "Web & Backend" },
+    { name: "Next.js", category: "Web & Backend" },
+    { name: "Node.js", category: "Web & Backend" },
+    { name: "Express", category: "Web & Backend" },
+    { name: "FastAPI", category: "Web & Backend" },
+    { name: "REST APIs", category: "Web & Backend" },
+    { name: "Tailwind CSS", category: "Web & Backend" },
 
-        // Backend / Tools
-        { name: "Node.js", category: "Backend" },
-        { name: "Express.js", category: "Backend" },
-        { name: "REST APIs", category: "Backend" },
-        { name: "Git", category: "Tools" },
-        { name: "Docker", category: "Tools" },
-        { name: "AWS", category: "Cloud" },
+    // Databases
+    { name: "MySQL", category: "Databases" },
+    { name: "PostgreSQL", category: "Databases" },
+    { name: "MongoDB", category: "Databases" },
+    { name: "Firebase", category: "Databases" },
 
-        // Frontend (Secondary)
-        { name: "React", category: "Frontend" },
-        { name: "Next.js", category: "Frontend" },
-        { name: "JavaScript", category: "Frontend" },
-        { name: "Tailwind CSS", category: "Frontend" },
+    // AI / ML
+    { name: "TensorFlow", category: "AI / ML" },
+    { name: "Scikit-learn", category: "AI / ML" },
+    { name: "Pandas", category: "AI / ML" },
+    { name: "NumPy", category: "AI / ML" },
+    { name: "Matplotlib", category: "AI / ML" },
+    { name: "Seaborn", category: "AI / ML" },
+    { name: "LLMs", category: "AI / ML" },
+    { name: "RAG", category: "AI / ML" },
+    { name: "Multimodal AI", category: "AI / ML" },
+    { name: "OpenRouter", category: "AI / ML" },
+    { name: "Groq", category: "AI / ML" },
+    { name: "Neural Networks", category: "AI / ML" },
+    { name: "Feature Engineering", category: "AI / ML" },
+    { name: "Time-Series Analysis", category: "AI / ML" },
+
+    // Tools & Platforms
+    { name: "Git", category: "Tools & Platforms" },
+    { name: "GitHub", category: "Tools & Platforms" },
+    { name: "Linux", category: "Tools & Platforms" },
+    { name: "Jupyter", category: "Tools & Platforms" },
+    { name: "Cisco Packet Tracer", category: "Tools & Platforms" }
     ],
     socials: [
         { name: "GitHub", url: "https://github.com/mostahidx", icon: "gh" },
         { name: "LinkedIn", url: "https://linkedin.com/in/mostahidx", icon: "in" },
         { name: "X", url: "https://x.com", icon: "X" },
-        { name: "Email", url: "mailto:mostahidx@gmail.com", icon: "em" }
+        { name: "Email", url: "mailto:mostahid.hq@gmail.com", icon: "em" }
     ],
     about: {
-        bio: "I'm an aspiring Data Scientist and ML Engineer from Dhaka, Bangladesh, currently pursuing my B.Sc. in Computer Science & Engineering at BRAC University. I'm driven by the challenge of turning raw data into actionable intelligence — especially when it solves real problems in my community.",
-        description: "My passion lies at the intersection of machine learning and real-world impact. From predictive maintenance for Bangladesh's e-rickshaw fleets to customer churn modeling, I build end-to-end ML pipelines that don't just predict — they inform decisions. I'm particularly drawn to time-series forecasting, sensor data analytics, and predictive modeling for underserved markets.",
-        focus: "Currently focused on predictive maintenance, battery health modeling, and deploying ML solutions for South Asian mobility and energy sectors."
+        bio: "I’m a CSE undergraduate at BRAC University exploring how thoughtful software and machine learning can solve practical problems. My work spans web applications, systems programming, and research into self-supervised learning for steel defect detection.",
+        description: "Computer Science and Engineering undergraduate at BRAC University with hands-on experience in machine learning pipelines, database-backed web applications and low-level systems programming. My ongoing research explores self-supervised learning for robust steel surface defect detection and localization. Seeking internship and entry-level opportunities in Software Engineering, Data Science, and Machine Learning, with a longer-term goal of graduate study in AI and Data Science.",
+        focus: "Currently focused on self-supervised learning, machine learning pipelines, and robust steel surface defect detection and localization."
     },
     achievements: [
         {
@@ -99,13 +111,6 @@ const PortfolioData = {
             description: "Crowned Champion in BRAC University's Residential Semester (RS64) Carrom Championship — strategic thinking under pressure",
             icon: "🏆",
             year: "2024"
-        },
-        {
-            title: "Predictive Maintenance Research",
-            category: "Technical",
-            description: "Developing battery-health-as-a-service models for e-rickshaw fleets — a genuinely hot business model in South Asia right now",
-            icon: "🔋",
-            year: "2025"
         }
     ],
     stats: [
