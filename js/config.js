@@ -119,7 +119,6 @@ const PortfolioData = {
         { label: "Data Points Analyzed", value: "50K+" }
     ],
     logs: [
-        { date: "Current", event: "Building predictive battery-health models for e-rickshaw fleets in Bangladesh" },
         { date: "2025", event: "Exploring time-series forecasting and sensor data analytics for predictive maintenance" },
         { date: "2024", event: "Completed ML-based customer churn prediction with neural networks and ensemble methods" },
         { date: "2024", event: "Developed CrisisConnect with geospatial data analysis for emergency response optimization" }
