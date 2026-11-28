@@ -89,8 +89,8 @@ const PortfolioData = {
     socials: [
         { name: "GitHub", url: "https://github.com/mostahidx", icon: "gh" },
         { name: "LinkedIn", url: "https://linkedin.com/in/mostahidx", icon: "in" },
-        { name: "X", url: "https://x.com", icon: "X" },
-        { name: "Email", url: "mailto:mostahid.hq@gmail.com", icon: "em" }
+        { name: "X", url: "https://x.com/mostahidx", icon: "X" },
+        { name: "Email", url: "https://mail.google.com/mail/?view=cm&to=mostahid.hq@gmail.com", icon: "em" }
     ],
     about: {
         bio: "I’m a CSE undergraduate at BRAC University exploring how thoughtful software and machine learning can solve practical problems. My work spans web applications, systems programming, and research into self-supervised learning for steel defect detection.",
